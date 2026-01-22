@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5vh;
+  color: black;
+  font-family: montserrat;
+}
+#logo {
+  height: 5vh;
+  float: left;
+}
+
+#logo-text {
+  display: inline-block;
+  float: left;
+  font-size: 2.5vh;
+  margin: 1vh;
+  font-weight: bold;
+  
+}
+
+nav {
+  text-align: center;
+  padding: 0.5vh;
+}
+
+.links-board {
+  padding-top: 1vh;
+  display: inline-block;
+  padding-bottom: 1vh;
+}
+
+.nav-button {
+  color: rgba(0, 0, 0, 0.644);
+  text-decoration: none;
+  margin: 1vh;
+}
+
+.signin-buttons-board {
+  margin-top: 0.1vh;
+  display: inline-block;
+  float: right;
+}
+
+.signin-buttons-board button {
+  font-size: 1.5vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  height: 3.5vh;
+  border: 1.5px solid;
+  border-color: slategray;
+}
+
+#login-button {
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+#help-button {
+  height: 2.2vh;
+  max-width: 2.2vh;
+  border: 2.5px solid;
+  border-color: rgb(0, 0, 0);
+  font-weight: bold;
+
+}
