@@ -125,8 +125,7 @@ section {
   display: inline-block;
 }
 
-.small-images p {
-  text-align: left;
+.small p {
   display: inline-block;
   font-size: 2vh;
 }
