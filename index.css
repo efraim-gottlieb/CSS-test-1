@@ -42,24 +42,60 @@ nav {
   float: right;
 }
 
-.signin-buttons-board button {
+button {
   font-size: 1.5vh;
   background-color: rgb(255, 255, 255);
   border-radius: 20px;
   height: 3.5vh;
-  border: 1.5px solid;
-  border-color: slategray;
+  border: 1px solid;
+  border-color: rgb(220, 224, 228);
 }
 
 #login-button {
   color: rgb(255, 255, 255);
   background-color: black;
+
 }
 #help-button {
-  height: 2.2vh;
-  max-width: 2.2vh;
-  border: 2.5px solid;
+  height: 2.4vh;
+  width: 2.4vh;
+  border: 1.5px solid;
   border-color: rgb(0, 0, 0);
   font-weight: bold;
+  padding: 2.1px;
 
+
+}
+
+main {
+    position: relative;
+    margin: 20% 20% 0;
+    text-align: center;
+    border-radius: 8px;
+    min-height: 30vh;
+    min-width: 20vw;
+    padding: 10px;
+}
+.input-center {
+  border: 1px solid;
+  border-radius: 15px;
+  border-color: rgb(206, 205, 205);
+  padding: 10px;
+  text-align: left;
+}
+
+#input {
+  font-size: 2.3vh;
+  border: none;
+  width: 98%;;
+}
+
+form {
+  margin-bottom: 10px;
+}
+
+#voice-button {
+  background-color: rgb(232, 233, 235);
+  border: none;
+  float: right;
 }
