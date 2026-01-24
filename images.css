@@ -31,6 +31,8 @@ body {
 nav {
   text-align: center;
   padding: 0.5vh;
+  position: sticky;
+  top: 0;
 }
 
 .links-board {
